@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+Student Records Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based application to manage student records with full CRUD functionality. This app allows users to view, add, edit, and delete student data while communicating with a backend API for data storage.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Display a list of students with basic details like ID, Name, Email, and Phone
 
-### `npm start`
+Add new student records easily
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Edit existing student information
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+View detailed student profiles
 
-### `npm test`
+Delete student records with confirmation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Responsive and clean user interface
 
-### `npm run build`
+Technology Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React.js (Functional Components and Hooks)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React Router for client-side navigation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Fetch API for backend communication
 
-### `npm run eject`
+CSS for styling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Getting Started
+Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ npm installed on your machine
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend API running locally at http://localhost:8000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Installation
 
-## Learn More
+Clone the repository:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git clone https://github.com/Code-max-satyam/Student-Records-Management-App.git
+cd Student-Records-Management-App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm install
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Start the development server:
 
-### Making a Progressive Web App
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Make sure your backend (e.g., JSON Server) is running on port 8000 before starting the React app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Project Structure
+/src
+  ├── CreateStudent.js
+  ├── StudentTable.js
+  ├── EditStudent.js
+  ├── ViewDetails.js
+App.css
+App.js
+index.js
+db.json  (backend data file)
 
-### Deployment
+Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The home page displays all student records.
 
-### `npm run build` fails to minify
+Use the Add New Student button to create a new record.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Each student entry has View, Edit, and Delete options for management.
+
+Screenshots
+
+
+https://github.com/user-attachments/assets/7bafcb94-d785-45f9-bb69-7d2ae8947597
+
+<img width="1912" height="1013" alt="Screenshot 2025-09-06 172741" src="https://github.com/user-attachments/assets/9341e640-d1af-4f27-98c0-40528385c5d8" />
+
+<img width="1903" height="1025" alt="Screenshot 2025-09-06 172809" src="https://github.com/user-attachments/assets/5a93ef27-2ed8-49c0-8223-47db7ba15e9e" />
+
+<img width="1918" height="1015" alt="Screenshot 2025-09-06 172833" src="https://github.com/user-attachments/assets/3870f951-b445-4247-bbd9-8144464191dd" />
+
+
+Contributing
+
+Feel free to open issues or submit pull requests. Any suggestions or bug reports are welcome!
+
+Contact
+
+For questions or support, reach out via email:
+satyam10april02@gmail.com
